@@ -1,0 +1,81 @@
+
+.deTailist-box {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .btnchenter {
+    display: flex;
+    align-items: center; /*定义body的元素垂直居中*/
+    justify-content: center; /*定义body的里的元素水平居中*/
+  }
+  
+  
+  
+  
+      /* motaikuang  */
+      .ant-modal-content {
+        border-radius: 9px !important;
+        width: 800px !important;
+      }
+      .ant-input {
+        width: 200px !important;
+      }
+  
+      .ant-modal-header {
+        padding: 0 !important;
+        background-color: #4977fc !important;
+        height: 33px !important;
+        border-radius: 8px 8px 0 0 !important;
+      }
+      .ant-modal-title {
+        height: 33px !important;
+        line-height: 33px !important;
+        text-align: center !important ;
+        color: #f4f5ff !important;
+        font-size: 12px !important;
+      }
+      .ant-form-item-label > label {
+        font-size: 10px !important;
+      }
+      .ant-row {
+        /* padding-bottom: 7px !important; */
+        margin-bottom: 7px !important;
+      }
+      .ant-input {
+        font-size: 9px !important;
+        border-radius: 3px !important;
+        color: #aaaaaa !important;
+      }
+      .ant-form-item-label {
+        font-size: 9px !important;
+        color: #787878 !important;
+      }
+      .ant-form-text {
+        font-size: 10px !important;
+        color: #373737 !important;
+      }
+      .ant-form-sizeipt {
+        font-size: 10px !important;
+        color: #373737 !important;
+      }
+      .mybtnset {
+        color: red;
+      }
+  
+  /* .ant-modal-content {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0)  !important;
+        border: 0;
+        border-radius: 4px;
+        background-clip: padding-box;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+      }
+    
+      .ant-modal-body {
+        padding: 0 !important;
+        font-size: 0 !important;
+        line-height: 1 !important;
+      } */
+  

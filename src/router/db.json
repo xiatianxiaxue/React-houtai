@@ -1,0 +1,498 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "123",
+      "roleType": 3,
+      "roleName": "超级管理员",
+      "roleState": false,
+      "default": true,
+      "id": 1
+    },
+    {
+      "username": "121231",
+      "password": "55555",
+      "roleType": 2,
+      "roleName": "管理员",
+      "roleState": false,
+      "id": 2
+    },
+    {
+      "username": "下遗憾",
+      "password": "55555",
+      "roleType": 3,
+      "roleName": "超级管理员",
+      "roleState": true,
+      "id": 3
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "roleName": "超级管理员",
+      "roleRight": [
+        {
+          "category": "文章管理",
+          "list": [
+            "文章列表",
+            "创建文章",
+            "文章预览",
+            "文章分类"
+          ]
+        },
+        {
+          "category": "用户管理",
+          "list": [
+            "用户列表",
+            "添加用户",
+            "删除用户",
+            "修改用户"
+          ]
+        },
+        {
+          "category": "权限管理",
+          "list": [
+            "角色列表",
+            "权限列表",
+            "添加角色",
+            "修改角色",
+            "删除角色"
+          ]
+        }
+      ],
+      "default": true
+    },
+    {
+      "id": 2,
+      "roleName": "管理员",
+      "roleRight": [
+        {
+          "category": "文章管理",
+          "list": [
+            "文章列表",
+            "创建文章",
+            "文章预览",
+            "文章分类"
+          ]
+        }
+      ],
+      "default": true
+    },
+    {
+      "id": 3,
+      "roleName": "小编",
+      "roleRight": [
+        {
+          "category": "文章管理",
+          "list": [
+            "文章列表",
+            "创建文章",
+            "文章预览"
+          ]
+        }
+      ],
+      "default": true
+    }
+  ],
+  "rights": [
+    {
+      "id": 1,
+      "title": "文章列表",
+      "key": "文章管理-文章列表",
+      "grade": 1,
+      "category": "文章管理"
+    },
+    {
+      "id": 2,
+      "title": "创建文章",
+      "key": "文章管理-创建文章",
+      "grade": 1,
+      "category": "文章管理"
+    },
+    {
+      "id": 3,
+      "title": "文章预览",
+      "key": "文章管理-文章预览",
+      "grade": 1,
+      "category": "文章管理"
+    },
+    {
+      "id": 4,
+      "title": "文章分类",
+      "key": "文章管理-文章分类",
+      "grade": 2,
+      "category": "文章管理"
+    },
+    {
+      "id": 5,
+      "title": "用户列表",
+      "key": "用户管理-用户列表",
+      "grade": 3,
+      "category": "用户管理"
+    },
+    {
+      "id": 6,
+      "title": "添加用户",
+      "key": "用户管理-添加用户",
+      "grade": 3,
+      "category": "用户管理"
+    },
+    {
+      "id": 7,
+      "title": "删除用户",
+      "key": "用户管理-删除用户",
+      "grade": 3,
+      "category": "用户管理"
+    },
+    {
+      "id": 8,
+      "title": "修改用户",
+      "key": "用户管理-修改用户",
+      "grade": 3,
+      "category": "用户管理"
+    },
+    {
+      "id": 9,
+      "title": "角色列表",
+      "key": "权限管理-角色列表",
+      "grade": 3,
+      "category": "权限管理"
+    },
+    {
+      "id": 10,
+      "title": "权限列表",
+      "key": "权限管理-权限列表",
+      "grade": 3,
+      "category": "权限管理"
+    },
+    {
+      "id": 11,
+      "title": "添加角色",
+      "key": "权限管理-添加角色",
+      "grade": 3,
+      "category": "权限管理"
+    },
+    {
+      "id": 12,
+      "title": "修改角色",
+      "key": "权限管理-修改角色",
+      "grade": 3,
+      "category": "权限管理"
+    },
+    {
+      "id": 13,
+      "title": "删除角色",
+      "key": "权限管理-删除角色",
+      "grade": 3,
+      "category": "权限管理"
+    }
+  ],
+  "categories": [
+    {
+      "title": "IT",
+      "value": "IT",
+      "id": 11,
+      "default": true,
+      "grade": 1,
+      "children": [
+        {
+          "title": "前端",
+          "value": "前端",
+          "id": 111,
+          "default": true,
+          "grade": 2,
+          "children": [
+            {
+              "title": "Vue",
+              "value": "Vue",
+              "id": 1111,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "React",
+              "value": "React",
+              "id": 1112,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "Angular",
+              "value": "Angular",
+              "id": 1113,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "小程序",
+              "value": "小程序",
+              "id": 1114,
+              "default": true,
+              "grade": 3
+            }
+          ]
+        },
+        {
+          "title": "Java",
+          "value": "Java",
+          "id": 112,
+          "default": true,
+          "grade": 2
+        },
+        {
+          "title": "Python",
+          "value": "Python",
+          "id": 113,
+          "default": true,
+          "grade": 2
+        },
+        {
+          "title": "PHP",
+          "value": "PHP",
+          "id": 114,
+          "default": true,
+          "grade": 2
+        }
+      ]
+    },
+    {
+      "title": "娱乐",
+      "value": "娱乐",
+      "id": 12,
+      "default": true,
+      "grade": 1,
+      "children": [
+        {
+          "title": "明星",
+          "value": "明星",
+          "id": 121,
+          "default": true,
+          "grade": 2
+        },
+        {
+          "title": "电影",
+          "value": "电影",
+          "id": 122,
+          "default": true,
+          "grade": 2,
+          "children": [
+            {
+              "title": "华语",
+              "value": "华语",
+              "id": 1221,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "欧美",
+              "value": "欧美",
+              "id": 1222,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "日韩",
+              "value": "日韩",
+              "id": 1223,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "美图",
+              "value": "美图",
+              "id": 1224,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "影评",
+              "value": "影评",
+              "id": 1225,
+              "default": true,
+              "grade": 3
+            }
+          ]
+        },
+        {
+          "title": "星座",
+          "value": "星座",
+          "id": 123,
+          "default": true,
+          "grade": 2
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "title": "前端技能",
+      "author": "111111",
+      "contentd": "<p>不会技能</p>\n",
+      "catagory": [
+        "IT",
+        "前端",
+        "小程序"
+      ],
+      "id": 5
+    },
+    {
+      "title": "成飘雪",
+      "author": "111111",
+      "contentd": "<p>没毛笔昂</p>\n",
+      "catagory": [
+        "娱乐",
+        "电影",
+        "欧美"
+      ],
+      "id": 6
+    },
+    {
+      "title": "12313",
+      "author": "111111",
+      "contentd": "<p>dasdasd</p>\n",
+      "catagory": [
+        "娱乐",
+        "明星"
+      ],
+      "id": 7
+    },
+    {
+      "title": "12313",
+      "author": "111111",
+      "contentd": "<p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>\n<p>asddddddddddddd</p>\n",
+      "catagory": [
+        "娱乐",
+        "电影",
+        "欧美"
+      ],
+      "id": 8
+    },
+    {
+      "title": "12313",
+      "author": "111111",
+      "contentd": "<p>你好呀</p>\n",
+      "id": 9
+    },
+    {
+      "title": "前端技能",
+      "author": "111111",
+      "contentd": "<p>&nbsp;asdasd</p>\n",
+      "catagory": [
+        "IT",
+        "前端",
+        "Vue"
+      ],
+      "id": 10
+    },
+    {
+      "title": "222",
+      "author": "222",
+      "contentd": "<p>2222</p>\n",
+      "catagory": [
+        "IT",
+        "Java"
+      ],
+      "id": 11
+    },
+    {
+      "title": "前端技能",
+      "author": "222",
+      "contentd": "<p>撒大声大声</p>\n",
+      "catagory": [
+        "娱乐",
+        "明星"
+      ],
+      "id": 12
+    },
+    {
+      "title": "333",
+      "author": "333",
+      "contentd": "<p>3333</p>\n",
+      "catagory": [
+        "IT",
+        "前端",
+        "Vue"
+      ],
+      "id": 13
+    },
+    {
+      "title": "12313",
+      "author": "admin",
+      "contentd": "<p>33333333333333😀</p>\n",
+      "catagory": [
+        "娱乐",
+        "明星"
+      ],
+      "id": 14
+    },
+    {
+      "title": "前端技能",
+      "author": "admin",
+      "contentd": "<p style=\"text-align:center;\">2222222😎</p>\n",
+      "catagory": [
+        "IT",
+        "前端",
+        "Angular"
+      ],
+      "id": 15
+    }
+  ],
+  "baojiaList": [
+    {
+      "conName": "千峰科技",
+      "id": 1,
+      "tel": 18888888888,
+      "typeone": "大头煤",
+      "typetwo": "优",
+      "startTime": "2010.12.21",
+      "lianxiName": "王杰",
+      "other": "没问题",
+      "priceone": 300,
+      "procetwo": 350,
+      "entTime": "2012.12.20"
+    }
+  ],
+  "ComInfo": [
+    {
+      "id": 1,
+      "Addres": "11111",
+      "Cityname": "4444444444",
+      "Compone": "22222",
+      "Name": "111",
+      "tel": "333333333"
+    },
+    {
+      "Name": "王杰",
+      "Addres": "山西太原",
+      "Compone": "深加科技",
+      "tel": "134567899",
+      "Cityname": "太原第一二",
+      "id": 2
+    },
+    {
+      "Name": "王杰",
+      "Addres": "抢分来吧",
+      "Compone": "深加科技",
+      "tel": "12321312312",
+      "Cityname": "太原第一二",
+      "id": 3
+    },
+    {
+      "Name": "王杰",
+      "Addres": "山西太原",
+      "Compone": "深加科技",
+      "tel": "12332131232",
+      "Cityname": "太原第一二",
+      "id": 4
+    },
+    {
+      "Name": "王杰",
+      "Addres": "北京",
+      "Compone": "佳能累计",
+      "tel": "43242342342",
+      "Cityname": "内径席位行",
+      "id": 5
+    }
+  ],
+  "a": []
+}

@@ -1,0 +1,58 @@
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+  }
+  
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+  
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+  .antaide{
+      /* height: 254%; */
+      background-color: #333333;
+  }
+  .conteain{
+      /*  宽=窗口-63   height={window.innerHeight-63}*/
+      height: 800px;
+      /* height: "window.innerHeight-63px"; */
+      background-color: steelblue;
+      padding: 30px;
+      overflow: hidden;
+  }
+  .ant-layout{
+    height: 100%;
+  }
+  .ant-avatar{
+    position: absolute;
+    top: 12px;
+    right: 30px;
+  }
+  .xiaobox{
+   background-color: rgba(255, 255, 255, .5);
+     height:50px;
+    width:45px; 
+    /*  加权重的方法在后面加！important */
+    padding: 0 !important;
+    margin: 0;
+    box-sizing: unset;
+    
+  }
+  .ant-avatar-lg.ant-avatar-icon {
+    font-size: 24px;
+    z-index: 9999;
+  }
+  .ant-layout-header {
+    position: relative;
+}
